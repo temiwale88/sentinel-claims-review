@@ -1,5 +1,3 @@
 streamlit
-openai==0.28
+openai==1.16.2
 python-dotenv
-gdown
-py7zr
