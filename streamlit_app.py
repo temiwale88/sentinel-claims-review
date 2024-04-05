@@ -32,15 +32,6 @@ def load_and_preprocess_data():
     
     return df
 
-from tabulate import tabulate # first, we'll convert to markdown
-
-# Source code (modified slightly) from 'laura-xy-lee' from: https://tinyurl.com/3fr42jky
-def convert_to_md(df):
-        # Convert table to markdown
-        md = tabulate(df, tablefmt='github', headers='keys', showindex=False)
-        return md
-
-
 # Function to create prompt for OpenAI ChatGPT
 def create_prompt(prompt):
     return [
