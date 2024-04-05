@@ -76,7 +76,9 @@ def main():
 
     **App name**: *Sentinel - Your Claims Review Co-Pilot*
     
-    **How to Use**: Select a member ID via the `Select Member ID:` option in the main view, then click on `Explore Sentinel's Analysis`. Explore the claims history for this fictitious member and wait for Sentinel's analysis and recommendations.🎉
+    **How to Use**: Select a member ID via the `Select Member ID:` option in the main view, then click on `Explore Sentinel's Analysis`. Explore the claims history for this fictitious member and wait for Sentinel's analysis and recommendations.🎉  
+    
+    **Tip** - You can **expand the member table** for better visualization: hover over the table, look for the diverging arrows icon on the top right of the table, and click on that icon. Click on a similar icon, in expanded view, to get back to the original screen.
     
     ---
 
