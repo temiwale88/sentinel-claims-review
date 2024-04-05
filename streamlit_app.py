@@ -6,7 +6,7 @@ from openai import OpenAI
 
 file_path = 'prompts.npy'
 
-st.cache_resource
+@st.cache_resource(show_spinner=False)
 def load_and_preprocess_prompt_data():
     file_path = 'prompts.npy'
 
@@ -17,7 +17,7 @@ def load_and_preprocess_prompt_data():
     return prompt_df
 
 # Function to load and preprocess data (cached)
-st.cache_resource
+@st.cache_resource(show_spinner=False)
 def load_and_preprocess_data():
     # Load data
     df = pd.read_csv("data.csv", encoding='ISO 8859-1')
